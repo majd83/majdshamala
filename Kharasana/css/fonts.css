@@ -1,0 +1,50 @@
+﻿
+
+@font-face {
+  font-family: 'Light';
+  font-style: normal;
+   src: url("font/TanseekModernProArabic-Light.ttf");
+}
+
+@font-face {
+  font-family: 'Medium';
+  font-style: normal;
+   src: url("font/TanseekModernProArabic-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Bold';
+  font-style: normal;
+   src: url("font/TanseekModernProArabic-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'vest';
+  font-style: normal;
+   src: url("font/BigVestaArabicRegular.ttf");
+}
+@font-face {
+  font-family: 'bvest';
+  font-style: normal;
+   src: url("font/BigVestaArabicBold.ttf");
+}
+@font-face {
+  font-family: 'roman';
+  font-style: normal;
+   src: url("font/HelveticaNeueLTArabic-Roman.ttf");
+}
+@font-face {
+  font-family: 'flight';
+  font-style: normal;
+   src: url("font/Frutiger light.ttf");
+}
+@font-face {
+  font-family: 'froman';
+  font-style: normal;
+   src: url("font/Frutiger roman.ttf");
+}
+@font-face {
+  font-family: 'fbold';
+  font-style: normal;
+   src: url("font/Frutiger bold.ttf");
+}

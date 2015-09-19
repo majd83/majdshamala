@@ -1,0 +1,692 @@
+﻿
+html, html a {
+    text-decoration: none !important;
+    text-rendering: geometricprecision;
+}
+body {
+    color: #fff;
+    font-family: vest;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #333;
+    font-weight: normal;
+    margin-top: 0;
+}
+.row-centered {
+    text-align: center;
+}
+.col-centered {
+    display: inline-block;
+    float: none !important;
+}
+.header {
+    box-shadow: 0 3px 21px rgba(0, 0, 0, 0.34);
+    height: 159px;
+    overflow: hidden;
+    position: relative;
+    z-index: 100000;
+}
+.style1 {
+    height: 54px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.style2 {
+    height: 105px;
+    position: absolute;
+    right: 0;
+    top: 54px;
+    width: 100%;
+}
+.logo {
+    min-height: 159px;
+}
+.logo > div {
+    background: #fff none repeat scroll 0 0;
+    min-height: 159px;
+    position: relative;
+    width: 100%;
+}
+.logo a {
+    display: block;
+}
+.logo a img {
+    margin-right: -35px;
+    margin-top: 20px;
+}
+.logo > div::after {
+    background: rgba(0, 0, 0, 0) url("../images/style15.png") no-repeat scroll 0 0;
+    content: "";
+    height: 159px;
+    left: -44px;
+    position: absolute;
+    top: 0;
+    width: 44px;
+}
+.navbar-brand {
+    color: #fff !important;
+    display: none;
+    font-size: 14px;
+}
+.navbar-default {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    margin-top: 79px;
+    min-height: 57px;
+}
+.navbar-nav > li > a {
+    color: #fff !important;
+    font-family: bvest;
+    font-size: 13px;
+    padding: 16px 23px;
+    transition: all 0.6s ease 0s;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #4a1e26;
+}
+.navbar-nav > li > a:hover {
+    background-color: #4c2028 !important;
+}
+.twitter {
+    background: #582931 none repeat scroll 0 0;
+    text-align: center;
+}
+.twitter > div {
+    margin: auto;
+    min-height: 100px;
+    width: 380px;
+}
+.twitter > div > span {
+    background: rgba(0, 0, 0, 0) url("../images/style19.png") no-repeat scroll 0 0;
+    display: block;
+    float: right;
+    height: 70px;
+    margin-top: 14px;
+    width: 91px;
+}
+.twitter > div > div {
+    float: right;
+    margin-right: 25px;
+    text-align: right;
+}
+.twitter > div > div h2 {
+    color: #fff;
+    font-family: bvest;
+    font-size: 13px;
+    margin-bottom: 7px;
+    margin-top: 14px;
+}
+.twitter > div > div h3 {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.twitter > div > div p {
+    color: #fff;
+    font-family: vest,arial;
+    font-size: 11px;
+    margin-bottom: 0;
+}
+.twitter > div > div span {
+    color: #fff;
+    font-family: arial;
+    font-size: 10px;
+}
+.mainPhoto {
+    background: rgba(0, 0, 0, 0) url("../images/main.jpg") no-repeat scroll 0 0 / 100% 100%;
+    height: 678px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+.body {
+}
+.sociallink {
+    background: #333 none repeat scroll 0 0;
+    min-height: 54px;
+}
+.links {
+    float: left;
+    margin-right: 10px;
+}
+.links a {
+    color: #fff;
+    float: left;
+    font-size: 11px;
+    line-height: 54px;
+    padding: 0 10px;
+    transition: all 0.4s ease 0s;
+}
+.social {
+    float: left;
+}
+.social a {
+    color: #fff;
+    float: left;
+    font-size: 17px;
+    line-height: 54px;
+    padding: 0 13px;
+    transition: all 0.4s ease 0s;
+}
+.social a:hover, .links a:hover {
+    background: #1f1f1f none repeat scroll 0 0;
+}
+.biglinks {
+    bottom: -85px;
+    position: absolute;
+    width: 100%;
+}
+.biglinks > div {
+    background: rgba(255, 255, 255, 0.95) none repeat scroll 0 0;
+    display: inline-block;
+    float: none;
+    margin: auto;
+    min-height: 169px;
+    position: relative;
+    width: 1113px;
+}
+.biglinks > div::after {
+    background: rgba(0, 0, 0, 0) url("../images/style17.png") no-repeat scroll 0 0;
+    content: "";
+    height: 169px;
+    left: -47px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+}
+.biglinks > div::before {
+    background: rgba(0, 0, 0, 0) url("../images/style16.png") no-repeat scroll 0 0;
+    content: "";
+    height: 169px;
+    position: absolute;
+    right: -47px;
+    top: 0;
+    width: 47px;
+}
+.visionMessage {
+    background: rgba(0, 0, 0, 0) url("../images/style18.png") repeat scroll 0 0;
+    min-height: 329px;
+    padding-top: 120px;
+}
+.biglink-icon {
+    position: relative;
+    transition: all 0.4s ease 0s;
+}
+.biglink-icon::after {
+    background: #b6a8aa none repeat scroll 0 0;
+    color: #582931;
+    content: "";
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 69px;
+    width: 2px;
+}
+.biglink-icon img {
+    margin-top: 20px;
+    transition: all 1s ease 0s;
+}
+.biglink-icon p {
+    color: #582931;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 12px;
+    padding: 0 51px;
+    transition: all 0.2s ease 0s;
+}
+.biglink-icon:last-child::after {
+    display: none;
+}
+.visionMessage p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 35px;
+    margin-top: 5px;
+    padding-left: 70px;
+    padding-right: 130px;
+    text-align: right;
+}
+.visionMessage p span {
+    font-family: bvest;
+    font-size: 21px;
+}
+.visionMessage p:last-child {
+    margin-top: 22px;
+}
+.biglink-icon a {
+    display: block;
+}
+.home .twitter > div > span {
+    background: rgba(0, 0, 0, 0) url("../images/style5.png") no-repeat scroll 0 0;
+}
+.home .twitter > div > div h2, .home .twitter > div > div h3, .home .twitter > div > div p, .home .twitter > div > div span {
+    color: #582931;
+}
+.home .twitter {
+    background: #fff none repeat scroll 0 0;
+}
+.titleContainer {
+    min-height: 146px;
+}
+.titleContainer p, .contactinfo > p {
+    background: rgba(0, 0, 0, 0) url("../images/style8.png") no-repeat scroll right center;
+    color: #582931;
+    float: right;
+    font-family: bvest;
+    font-size: 24px;
+    height: 49px;
+    line-height: 57px;
+    margin-right: 22px;
+    margin-top: 54px;
+    padding-right: 70px;
+}
+.containSliderNews {
+    background: #f7f7f6 none repeat scroll 0 0;
+}
+.newslink {
+    height: 222px;
+    margin-top: 12px;
+    overflow: hidden;
+    padding: 0 6px;
+}
+.newslink img {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.newslink p {
+    bottom: 0;
+    box-shadow: 0 -94px 28px -44px rgba(0, 0, 0, 0.86) inset;
+    color: #fff;
+    font-family: bvest;
+    font-size: 15px;
+    height: 90px;
+    left: 0;
+    line-height: 22px;
+    margin: 0;
+    padding: 25px 30px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+}
+.containSliderNews > div {
+    padding-bottom: 70px;
+    padding-top: 15px;
+}
+.newslink > div {
+    float: right;
+    height: 222px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.newslink:hover p {
+    box-shadow: 0 -124px 35px -24px rgba(0, 0, 0, 0.76) inset;
+    height: 140px;
+    padding: 65px 30px;
+}
+.containSliderNews .carousel-control.left {
+}
+.containSliderNews .carousel-control.right {
+    left: 45px;
+}
+.containSliderNews .carousel-control {
+    background: #a89f88 none repeat scroll 0 0;
+    border-radius: 3px;
+    height: 28px;
+    left: 0;
+    opacity: 1;
+    right: auto;
+    top: -80px;
+    width: 39px;
+}
+.containSliderNews .carousel-control i {
+    font-size: 15px;
+}
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left, .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+.newsDetailsContainer {
+    background: #fff none repeat scroll 0 0;
+}
+.newsDetails {
+}
+.newsDetails h1 {
+    color: #333;
+    font-family: bvest;
+    font-size: 24px;
+    margin-top: 44px;
+}
+.newsDetails span {
+    color: #333;
+    font-size: 14px;
+}
+.newsDetails p {
+    color: #333;
+    font-family: roman;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.newsDetails img {
+    float: right;
+    height: 391px;
+    margin-bottom: 0;
+    margin-left: 24px;
+    margin-top: 11px;
+    width: 608px;
+}
+.titleContainer a {
+    color: #a89f88;
+    float: left;
+    font-size: 15px;
+    margin-top: 66px;
+}
+.titleContainer a i {
+    background: #a89f88 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    height: 28px;
+    line-height: 26px;
+    margin-left: 12px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 39px;
+}
+.titleContainer a:hover i {
+    background: #998f76 none repeat scroll 0 0;
+}
+.Constraints {
+    background: rgba(0, 0, 0, 0) url("../images/style12.png") repeat scroll 0 0;
+}
+.ConstraintsTitle p {
+    background: rgba(0, 0, 0, 0) url("../images/style10.png") no-repeat scroll right center;
+    color: #582931;
+    float: right;
+    font-family: bvest;
+    font-size: 24px;
+    height: 77px;
+    line-height: 87px;
+    margin-right: 22px;
+    margin-top: 54px;
+    padding-right: 99px;
+}
+.SomeConstraints {
+    padding-bottom: 60px;
+}
+.listOfConstraints {
+    padding-left: 3px;
+}
+.listOfConstraints a {
+    background: #f5f5f5 none repeat scroll 0 0;
+    color: #282828;
+    display: block;
+    font-size: 14px;
+    height: 54px;
+    line-height: 30px;
+    margin-bottom: 2px;
+    padding: 10px 25px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.listOfConstraints a:hover, .listOfConstraints a.active {
+    background: #ba8648 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 2px;
+    transition: all 0.3s ease 0s;
+}
+.DetailsConstraints {
+    background: #f5f5f5 none repeat scroll 0 0;
+    min-height: 727px;
+    padding: 30px 50px 380px;
+    position: relative;
+}
+.DetailsConstraints > img {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.DetailsConstraints > h2 {
+    color: #ba8648;
+    font-family: bvest;
+    font-size: 25px;
+}
+.DetailsConstraints > p {
+    color: #282828;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.DetailsConstraints > span {
+    color: #aeb4b8;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+.map {
+    padding: 0;
+    width: 100%;
+}
+.map img {
+    width: 100%;
+}
+.contactinfo {
+}
+.contactForm {
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+.contactinfo > p {
+    background: rgba(0, 0, 0, 0) url("../images/style6.png") no-repeat scroll right center;
+    height: 67px;
+    line-height: 70px;
+    padding-right: 85px;
+}
+.contactinfo > div {
+    float: right;
+    margin-right: 20px;
+    margin-top: 13px;
+    width: 100%;
+}
+.contactinfo > div > p {
+    color: #a89f88;
+    font-family: roman,tahoma;
+    font-size: 15px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+.name {
+    float: right !important;
+    margin-right: 2%;
+    width: 49% !important;
+}
+.contactForm input, .contactForm textarea {
+    border: 1px solid #aa9296;
+    border-radius: 0;
+    box-shadow: none;
+    color: #a89f88;
+    font-family: roman;
+    font-size: 15px;
+}
+.contactForm button {
+    background: #ba8648 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    height: 42px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.contactForm button:hover {
+    background: #a37033 none repeat scroll 0 0;
+    color: #fff;
+}
+.contactForm .form-group {
+    float: right;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.name:first-child {
+    margin-right: 0;
+}
+.contactForm .form-group input {
+    height: 41px;
+}
+.contactForm .form-group textarea {
+}
+.Structure {
+    background: #f7f7f6 none repeat scroll 0 0;
+}
+.Structure > div > h2 {
+    color: #582931;
+    font-size: 24px;
+    margin-top: 94px;
+}
+.bossMember {
+    margin-top: 33px;
+    padding-bottom: 50px;
+}
+.member {
+    margin-bottom: 20px;
+    margin-top: 14px;
+    padding-right: 56px;
+}
+.member > div {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 12px;
+    box-shadow: -1px 2px 2px -1px #c5c5c5;
+    height: 107px;
+    position: relative;
+    text-align: right;
+    transition: all 0.3s ease 0s;
+}
+.member img {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e9e4e4;
+    border-radius: 50%;
+    float: right;
+    height: 106px;
+    padding-right: 4px;
+    padding-top: 7px;
+    position: absolute;
+    right: -50px;
+    top: 0;
+    width: 106px;
+}
+.member p, .member span {
+    color: #636363;
+    display: inline-block;
+    font-family: fbold;
+    font-size: 18px;
+    padding-right: 70px;
+    transition: all 0.3s ease 0s;
+}
+.member p {
+    margin-bottom: 0;
+    margin-top: 22px;
+}
+.memberboss {
+    display: inline-block;
+    float: none;
+    margin: 38px auto auto;
+}
+.memberboss > div {
+    background: #ba8648 none repeat scroll 0 0;
+    height: 112px;
+}
+.memberboss > div p {
+    color: #fff;
+    font-family: fbold;
+    font-size: 20px;
+}
+.memberboss > div span {
+    color: #fff;
+}
+.member:hover > div {
+    background: #ba8648 none repeat scroll 0 0;
+}
+.member:hover p, .member:hover span {
+    color: #fff;
+}
+.member img {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e9e4e4;
+    border-radius: 50%;
+    float: right;
+    height: 112px;
+    padding-right: 4px;
+    padding-top: 7px;
+    position: absolute;
+    right: -50px;
+    top: 0;
+    width: 112px;
+}
+.Committee .ConstraintsTitle p {
+    background: rgba(0, 0, 0, 0) url("../images/style14.png") no-repeat scroll right center;
+    padding-right: 50px;
+}
+.CommitteeDetails {
+    padding-right: 89px;
+}
+.CommitteeDetails > h2 {
+    color: #582931;
+    font-family: bvest;
+    font-size: 21px;
+}
+.CommitteeDetails > p {
+    color: #333333;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 39px;
+}
+.CommitteeDetails > div {
+}
+.CommitteeDetails > div h3 {
+    color: #333333;
+    font-family: bvest;
+    font-size: 16px;
+}
+.CommitteeDetails > div p {
+    color: #333;
+    font-size: 17px;
+    margin-bottom: 26px;
+}
+.Committee {
+    padding-bottom: 70px;
+}
+.Rules {
+    padding-right: 71px;
+}
+.Rules li {
+    color: #282828;
+    font-size: 13px;
+    line-height: 30px;
+    margin-bottom: 14px;
+}
+.RulesContainer .titleContainer p {
+    background: rgba(0, 0, 0, 0) url("../images/style9.png") no-repeat scroll right center;
+    margin-bottom: 0;
+    padding-right: 93px;
+}
+.RulesContainer {
+    padding-bottom: 110px;
+}
